@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nCoder || Sign up</title>
     <link rel="stylesheet" href="./output.css" />
+    <link rel="shortcut icon" href="./WhatsApp Image 2024-07-22 at 11.32.00_411bed60.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="text-gray-400 bg-gray-900 body-font">
-      <div
+      <div 
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
         <a
@@ -16,7 +18,7 @@
           class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
         >
           <img
-            src="/WhatsApp Image 2024-07-22 at 11.32.00_411bed60.jpg"
+            src="/src/WhatsApp Image 2024-07-22 at 11.32.00_411bed60.jpg"
             alt=""
             class="w-24"
           />
@@ -32,7 +34,7 @@
           >
           <a
             href="contact-us.html"
-            class="mr-5 border-r-2 border-indigo-500 pr-4 hover:text-white cursor-pointer"
+            class="mr-5 border-r-2 border-indigo-500 pr-4  hover:text-white cursor-pointer"
             >Contact us</a
           >
           <a href="login.html" class="mr-5 hover:text-white cursor-pointer"
@@ -62,8 +64,8 @@
     </header>
     <!-- login -->
     <section class="text-gray-400 bg-gray-900 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
-        <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+      <div  class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+        <div data-aos="fade-right" class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
           <h1 class="title-font font-medium text-3xl text-white">
             Join
             <span class="text-cyan-400">
@@ -79,7 +81,7 @@
             connected, inspired, and ahead in your creative journey.
           </p>
         </div>
-        <div
+        <div  data-aos="fade-left"
           class="lg:w-2/6 md:w-1/2 bg-gray-800 bg-opacity-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
         >
           <h2 class="text-white text-lg font-medium title-font mb-5">
@@ -114,7 +116,7 @@
           >
             sign up
           </button>
-          <p class="text-xs mt-3">sign up to become a part of nCdoer</p>
+          <p class="text-xs mt-3">sign up to become a part of <span class="text-cyan-400">nCoder</span></p>
         </div>
       </div>
     </section>
@@ -129,7 +131,7 @@
           class="flex title-font font-medium items-center md:justify-start justify-center text-white"
         >
           <img
-            src="/WhatsApp Image 2024-07-22 at 11.32.00_411bed60.jpg"
+            src="/src/WhatsApp Image 2024-07-22 at 11.32.00_411bed60.jpg"
             alt=""
             class="w-24"
           />
@@ -226,5 +228,10 @@
         </span>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
+
 </html>
